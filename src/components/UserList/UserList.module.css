@@ -1,0 +1,19 @@
+.result-items {
+	margin-top: 20px;
+	width: 500px;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.result-items li {
+	background-color: #c5a8cc;
+	font-size: 18px;
+	padding: 10px;
+	border-radius: 3px;
+	text-decoration: none;
+	list-style-type: none;
+}
+.result-items li:not(:last-child) {
+	margin-bottom: 15px;
+}

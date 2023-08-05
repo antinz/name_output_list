@@ -1,11 +1,16 @@
-import React from 'react';
-
+import React, { useState } from "react";
+import AddUser from "./components/AddUser/AddUser";
+import UserList from "./components/UserList/UserList";
+import ErrorModal from "./components/ErrorModal/ErrorModal";
 
 function App() {
   return (
-    <div>
-
-    </div>
+    <main>
+      <AddUser />
+      <UserList />
+      <ErrorModal />
+      {/* display conditionally modal screen */}
+    </main>
   );
 }
 
